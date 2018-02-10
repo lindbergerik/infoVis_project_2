@@ -1,7 +1,9 @@
 InfoVis Project 2 - Datamaps
 =================================================
 
-datamaps vafan!
+Har just lyckats installera datamaps och få fram en map!!!
+Fixat massa med Node.js & NPM, men nu funkar det
+NÄSTA STEG: få in en användbar map
 
 -----
 
