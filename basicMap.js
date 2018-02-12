@@ -1,3 +1,3 @@
 var basic = new Datamap({
-  element: document.getElementById("basic")
+  element: document.getElementById("container")
 });

@@ -2,7 +2,7 @@
   "name": "infovis_project_2",
   "version": "1.0.0",
   "description": "InfoVis Project 2 - Datamaps",
-  "main": "basicMap.js",
+  "main": "datamap.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
