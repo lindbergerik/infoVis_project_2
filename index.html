@@ -14,7 +14,54 @@
   </head>
   <body>
 	<div class="container-fluid">
-        <div id="container" style="position: relative; width: 80%; max-height: 800px;"></div>
+        <h1>Gender Inequality - The Hard Truth</h1>
+        <p>What do people in different countries actually think about gender inequality issues? Is this correlatable to things like level of education or type of politics for that country?</p>
+        <div class="row">
+            <div class="col-md-10">
+                <!-- DATAMAPS -->
+                <div id="mapContainer"></div>
+            </div>
+            <div class="col-md-2">
+                <!-- SIDEBAR -->
+                <img class="element" src="elements/bar.png">
+                <div class="dropdown">
+                    <button class="dropbtn">Questions</button>
+                    <div class="dropdown-content">
+                        <a href="">Question 1</a>
+                        <a href="">Question 2</a>
+                        <a href="">Question 3</a>
+                    </div>
+                </div>
+                <div class="slidecontainer">
+                  <input type="range" min="1994" max="2014" value="1994" class="slider" id="myRange">
+                </div>
+                <p id="demo" style="text-align: center;"></p>
+            </div>
+        </div>
+        <p>Erik Lindberg | erikli6@kth.se</p>
+        <p style="color:red;">Note: Sadly I never managed to finish this visualization. Therefore, the colors presented in the map is just arbitrary filler data. Likewise, the buttons and slider doesn't do anything.</p>
+        <div class="filler"></div>
+        <h1>Project 2 - Analytic Trail</h1>
+        <p>I chose to focus on gender inequality as my research theme for this visualization. Going through VVS I found these 5 sets of [Agree - Disagree] questions that I think gives quite a detailed look into the thoughts about gender inequality in a country.</p>
+        <img src="img/img_01.png"><img src="img/img_02.png">
+        <p>To more easily understand the data at hand during the analysis I used google charts for some simple visualizations, for example:</p>
+        <img src="img/img_03.png"><img src="img/img_04.png">
+        <p>I found very varied data among the countries. Both with strong support and opposition to specific questions about gender inequality.
+
+        To get a more nuanced view of the matter, I chose 3 other variables concerning more general questions of a country.</p>
+        <img src="img/img_05.png">
+        <p>For example:</p>
+        <img src="img/img_06.png">
+        <p>From this I began to approach some interesting statistics that I wanted to visualize. Therefore I set out to create a visualization that could show a user these 5 variables, cross-compared to the 3 general variables, on a world map concerning all these countries and over a span of 20 years.</p>
+
+        <h1>Continuation</h1>
+        <p>Sadly I never had time to finish this, but the plan was as follows:</p>
+        <ul>Set up a index/javascript shell for a website and learn how to use D3.js - <span class="span1">DONE</span></ul>
+        <ul>Implement the <a href="http://datamaps.github.io/">D3 Datamaps</a> library correctly to create an interactive worldmap - <span class="span1">DONE</span></ul>
+        <ul>Export the VVS data and convert it into .csv-files - <span class="span1">DONE</span></ul>
+        <ul>Read the .csv-files using javascript and utilize the datamaps library to create an auto-calculated color map of the world. As well as repurpousing the datamap to work with the [Agree - Disagree] format, instead of the [0% - 100%] format - <span class="span2">IN PROCESS</span></ul>
+        <ul>Add interactivity by creating a UI which would let the user switch between different variables and years - <span class="span3">NOT DONE</span></ul>
+
 	</div>
 
     <!-- jQuery -->
@@ -29,8 +76,9 @@
     <script src="node_modules/datamaps/dist/datamaps.world.min.js"></script>
 
     <!-- The application JavaScript code -->
-    <script src="datamap.js"></script>
-    <!-- <script src="basicMap.js"></script> -->
-    <!-- <script src="exampleMap.js"></script> -->
+    <!-- <script src="js/datamap.js"></script> -->
+    <!-- <script src="js/basicMap.js"></script> -->
+    <script src="js/exampleMap.js"></script>
+    <script src="js/slider.js"></script>
   </body>
 </html>

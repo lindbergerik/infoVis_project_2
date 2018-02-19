@@ -1,10 +1,12 @@
-InfoVis Project 2 - Datamaps
+Gender Inequality - The Hard Truth
 =================================================
+InfoVis Project 2
+Erik Lindberg | erikli6@kth.se
 
-Har just lyckats installera datamaps och få fram en map!!!
-Fixat massa med Node.js & NPM, men nu funkar det
-NÄSTA STEG: få in en användbar map
+What do people in different countries actually think about gender inequality issues? Is this correlatable to things like level of education or type of politics for that country?
+
+Sadly I never managed to finish this visualization. Therefore, the colors presented in the map is just arbitrary filler data. Likewise, the buttons and slider doesn't do anything.
 
 -----
 
-* [index.html](https://github.com/lindbergerik/infoVis_project_1/blob/master/index.html) - the skeleton yo
+* [index.html](https://github.com/lindbergerik/infoVis_project_2/blob/master/index.html) - files to be added
